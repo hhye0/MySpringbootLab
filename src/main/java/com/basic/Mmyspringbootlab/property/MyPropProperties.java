@@ -9,6 +9,6 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("myprop")
 @Getter @Setter
 public class MyPropProperties {
-    private String name;
+    private String Username;
     private int port;
 }

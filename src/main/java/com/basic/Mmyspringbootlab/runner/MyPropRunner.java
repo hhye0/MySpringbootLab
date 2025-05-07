@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyPropRunner implements ApplicationRunner {
     @Value("${myprop.username}")
-    private String name;
+    private String username;
 
     @Value("${myprop.port}")
     private int port;
@@ -34,11 +34,11 @@ public class MyPropRunner implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("Logger 구현체 => " + logger.getClass().getName());
 
-        logger.debug("${myprop.username} = " + name);
+        logger.debug("${myprop.username} = " + username);
         logger.debug("${myprop.port} = " + port);
         logger.debug("${myprop.username} = {}", environment.getProperty("myprop.username"));
 
-        logger.info("MyBootProperties getUsername() = {}", properties.getName());
+        logger.info("MyBootProperties getUsername() = {}", properties.getUsername());
         logger.info("MyBootProperties getPort() = {}", properties.getPort());
         logger.info("설정된 Port 번호 = {}", environment.getProperty("local.server.port") );
 
