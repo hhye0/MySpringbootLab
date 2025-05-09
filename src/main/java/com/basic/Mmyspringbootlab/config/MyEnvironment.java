@@ -8,5 +8,5 @@ import lombok.ToString;
 @ToString
 @Builder
 public class MyEnvironment {
-    String mode;
+    private String mode;
 }
