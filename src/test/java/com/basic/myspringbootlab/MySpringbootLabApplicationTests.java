@@ -1,4 +1,4 @@
-package com.basic.Mmyspringbootlab;
+package com.basic.myspringbootlab;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

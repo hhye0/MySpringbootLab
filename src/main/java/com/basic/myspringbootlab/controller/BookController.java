@@ -1,8 +1,8 @@
-package com.basic.Mmyspringbootlab.controller;
+package com.basic.myspringbootlab.controller;
 
-import com.basic.Mmyspringbootlab.entity.Book;
-import com.basic.Mmyspringbootlab.exception.BusinessException;
-import com.basic.Mmyspringbootlab.repository.BookRepository;
+import com.basic.myspringbootlab.entity.Book;
+import com.basic.myspringbootlab.exception.BusinessException;
+import com.basic.myspringbootlab.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

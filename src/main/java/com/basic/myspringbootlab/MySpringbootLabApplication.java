@@ -1,4 +1,4 @@
-package com.basic.Mmyspringbootlab;
+package com.basic.myspringbootlab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;

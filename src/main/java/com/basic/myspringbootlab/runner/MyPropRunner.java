@@ -1,7 +1,6 @@
-package com.basic.Mmyspringbootlab.runner;
+package com.basic.myspringbootlab.runner;
 
-import com.basic.Mmyspringbootlab.config.MyEnvironment;
-import com.basic.Mmyspringbootlab.property.MyPropProperties;
+import com.basic.myspringbootlab.property.MyPropProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

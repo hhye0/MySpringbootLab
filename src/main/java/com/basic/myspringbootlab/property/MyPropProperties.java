@@ -1,4 +1,4 @@
-package com.basic.Mmyspringbootlab.property;
+package com.basic.myspringbootlab.property;
 
 import lombok.Getter;
 import lombok.Setter;

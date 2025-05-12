@@ -1,6 +1,6 @@
-package com.basic.Mmyspringbootlab.repository;
+package com.basic.myspringbootlab.repository;
 
-import com.basic.Mmyspringbootlab.entity.Book;
+import com.basic.myspringbootlab.entity.Book;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

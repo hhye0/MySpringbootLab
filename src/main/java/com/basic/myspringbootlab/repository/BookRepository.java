@@ -1,11 +1,7 @@
-package com.basic.Mmyspringbootlab.repository;
+package com.basic.myspringbootlab.repository;
 
-import com.basic.Mmyspringbootlab.entity.Book;
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.boot.context.properties.ConfigurationProperties;
+import com.basic.myspringbootlab.entity.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;

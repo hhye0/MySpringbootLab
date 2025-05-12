@@ -1,6 +1,6 @@
-package com.basic.Mmyspringbootlab.exception.advice;
+package com.basic.myspringbootlab.exception.advice;
 
-import com.basic.Mmyspringbootlab.exception.BusinessException;
+import com.basic.myspringbootlab.exception.BusinessException;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
