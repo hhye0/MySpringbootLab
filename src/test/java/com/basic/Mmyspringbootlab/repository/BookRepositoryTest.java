@@ -64,7 +64,6 @@ class BookRepositoryTest {
     }
 //    도서 삭제 테스트 ( testDeleteBook() )
     @Test
-    @Disabled
     @Rollback(value = false)
     void testDeleteBook(){
         Book book = bookRepository.findById(1L)
