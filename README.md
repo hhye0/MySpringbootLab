@@ -6,6 +6,7 @@
   * 연관관계의 주인 (Owner)와 종속 (non-owner)
   * Owner(BookDetail), Non-Owner(Book)
   * FK(외래키) 가지고 있는 쪽이 주인(owner)이다.
+  * 엔티티 두개, 레퍼지토리 두개, 서비스, 컨트롤러
 * Service
 * DTO(Data Transfer Object)
 * Controller
