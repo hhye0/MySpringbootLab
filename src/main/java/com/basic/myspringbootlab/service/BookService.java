@@ -56,6 +56,7 @@ public class BookService {
                 .toList();
     }
 
+    //등록
     @Transactional
     public BookDTO.Response createBook(BookDTO.Request request) {
         // Validate ISBN is not already in use
@@ -93,6 +94,7 @@ public class BookService {
         return BookDTO.Response.fromEntity(savedBook);
     }
 
+    // 수정
     @Transactional
     public BookDTO.Response updateBook(Long id, BookDTO.Request request) {
         // Find the book
